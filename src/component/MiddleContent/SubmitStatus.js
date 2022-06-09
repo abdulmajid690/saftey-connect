@@ -1,4 +1,5 @@
 import React from "react";
+import { FiChevronDown } from "react-icons/fi";
 
 const SubmitStatus = () => {
   return (
@@ -17,6 +18,9 @@ const SubmitStatus = () => {
             <option>ahmed khan</option>
             <option>shafiq khattak</option>
           </select>
+          <span className="chevron-down">
+            <FiChevronDown />
+          </span>
         </li>
       </ul>
       <ul className="second-row">

@@ -2,7 +2,8 @@ import React from "react";
 import logo from "../Assets/images/safety-connect-logo.png";
 
 // react icons
-import { FiSearch, FiSettings } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
+import { IoClose } from "react-icons/io5";
 
 // SCSS
 import "../Assets/style/style.scss";
@@ -10,6 +11,9 @@ import "../Assets/style/style.scss";
 const Header = () => {
   return (
     <header className="header-container">
+      <div className="close-icon">
+        <IoClose />
+      </div>
       <div className="logo">
         <img src={logo} alt="" />
       </div>

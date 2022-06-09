@@ -5,29 +5,29 @@ const ProductDetail = () => {
     <div className="product-detail-container">
       <ul className="first-row-container">
         <li>
-          Inspection ID:
+          <h3>Inspection ID:</h3>
           <span>112233</span>
         </li>
         <li>
-          Identification Number:
+          <h3>Identification Number:</h3>
           <span>EV-01</span>
         </li>
         <li>
-          Project:
+          <h3>Project:</h3>
           <span>Truck Loading Silo</span>
         </li>
         <li>
-          Location:
+          <h3>Location:</h3>
           <span>Silo-2</span>
         </li>
       </ul>
       <ul className="second-row-container">
         <li>
-          Due Date:
+          <h3>Due Date:</h3>
           <span>Mar 8 2022 10:30 am</span>
         </li>
         <li>
-          Inspection Date:
+          <h3>Inspection Date:</h3>
           <span>Mar 8 2022 10:30 am</span>
         </li>
       </ul>
